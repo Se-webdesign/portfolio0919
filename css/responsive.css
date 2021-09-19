@@ -18,4 +18,100 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 599px) {
+  header .wrapper .container .list .tell {
+    font-size: 1.2rem;
+  }
+  header .wrapper .container .list ul {
+    font-size: 1.2rem;
+    display: none;
+  }
+  header .wrapper .container .list ul li {
+    border-right: 1px solod #000;
+    border-left: 1px solid #000;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  header .wrapper .container .list .menu {
+    display: block;
+    z-index: 2;
+  }
+  header .wrapper .container .list .menu .menu-bar {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 4rem;
+  }
+  header .wrapper .container .list .menu .menu-item {
+    background: #fff;
+  }
+  header .wrapper .back-video p {
+    font-size: 3rem;
+  }
+  footer .list {
+    padding-top: 10px;
+  }
+  footer .list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 10px;
+  }
+  footer .list ul li {
+    margin-bottom: 5px;
+  }
+  footer .list p {
+    font-size: 1rem;
+  }
+  main .top .wrapper .container {
+    font-size: 1rem;
+  }
+  main .company .wrapper .item {
+    width: 90%;
+    margin: auto;
+  }
+  main .company .wrapper .container {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  main .service {
+    height: 1000px;
+  }
+  main .service .wrapper .container {
+    width: 90%;
+    margin: auto;
+  }
+  main .example .wrapper .container p {
+    font-size: 0.5rem;
+  }
+  main .example .wrapper .container .item li {
+    width: 40%;
+  }
+  main .article .wrapper .container {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  main .information {
+    height: 1500px;
+  }
+  main .information .wrapper .i-title {
+    top: 2%;
+  }
+  main .information .wrapper .i-title p {
+    font-size: 1.2rem;
+  }
+  main .information .wrapper .container {
+    width: 90%;
+    margin: auto;
+  }
+  main .contact .wrapper .container {
+    width: 90%;
+    margin: auto;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */
