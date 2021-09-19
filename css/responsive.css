@@ -1,0 +1,21 @@
+@media (max-width: 1024px) {
+  header .wrapper .container .list .tell {
+    font-size: 1.5rem;
+  }
+  header .wrapper .container .list ul {
+    font-size: 1.2rem;
+  }
+  header .wrapper .container .list ul li {
+    border-right: 1px solod #000;
+    border-left: 1px solid #000;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  header .wrapper .back-video p {
+    font-size: 3rem;
+  }
+  footer .list ul li {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
